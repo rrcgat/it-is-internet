@@ -23,13 +23,13 @@ git config --global http.https://github.com.proxy http://127.0.0.1:1080
 
 ```toml
 [http "https://github.com"]
-	proxy = http://127.0.0.1:1080
+    proxy = http://127.0.0.1:1080
     ; proxy = socks5://127.0.0.1:1081
     ; proxy = socks5h://127.0.0.1:1081
     ; `h` 表示使用 socks5 代理解析 DNS，而不是本地的 DNS
 ```
 
-对于使用 SSH 连接的仓库，需要配置 [SSH](../SSH.md) 代理。
+对于使用 SSH 连接的仓库，需要配置 [SSH](./SSH.md) 代理。
 
 ---
 
